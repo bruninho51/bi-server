@@ -1,0 +1,4 @@
+export declare enum Errors {
+    ERROR_NOT_FOUND = "ERROR_NOT_FOUND",
+    ERROR_UNINITIALIZED = "ERROR_UNINITIALIZED"
+}
