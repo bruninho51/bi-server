@@ -10,13 +10,13 @@ import {
 	TemplateEngine, 
 	ServerPush, 
 	HttpResponse 
-} from '@/contracts';
+} from '../contracts';
 import { 
 	Route, 
 	BaseController 
-} from '@/server';
-import { NotFoundError } from '@/errors';
-import { makeServerOptions } from '@/config'
+} from '../server';
+import { NotFoundError } from '../errors';
+import { makeServerOptions } from '../config'
 
 export class Server {
 	private readonly http2: Http2SecureServer;

@@ -1,4 +1,4 @@
-import { Controller, HttpRequest, HttpResponse } from '@/contracts';
+import { Controller, HttpRequest, HttpResponse } from '../contracts';
 export declare class BaseController implements Controller {
     private headers;
     constructor();

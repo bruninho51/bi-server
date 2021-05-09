@@ -1,11 +1,11 @@
 import path from 'path';
 import fs from 'fs'
-import { GenericServerError } from '@/server-page-errors/generic-server-error';
-import { NotFoundServerError } from '@/server-page-errors/not-found-server-error';
-import { StylePusher } from '@/server-push/style-pusher';
-import { ScriptPusher } from '@/server-push/script-pusher';
-import { ServerOptions } from '@/contracts/server-options';
-import { EjsTemplateEngine } from '@/template-engine';
+import { GenericServerError } from '../server-page-errors/generic-server-error';
+import { NotFoundServerError } from '../server-page-errors/not-found-server-error';
+import { StylePusher } from '../server-push/style-pusher';
+import { ScriptPusher } from '../server-push/script-pusher';
+import { ServerOptions } from '../contracts/server-options';
+import { EjsTemplateEngine } from '../template-engine';
 
 export const defaultServerOptions: ServerOptions  = {
     key: fs.readFileSync(path.join(process.cwd(), 'ssl', 'privkey.pem')),

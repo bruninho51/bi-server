@@ -2,7 +2,7 @@ import {
     Controller, 
     HttpRequest, 
     HttpResponse 
-} from '@/contracts';
+} from '../contracts';
 
 export class BaseController implements Controller {
 

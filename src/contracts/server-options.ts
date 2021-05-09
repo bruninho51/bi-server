@@ -1,4 +1,4 @@
-import { Router } from '@/server/router';
+import { Router } from '../server/router';
 import { 
 	ServerPush,
 	TemplateEngine, 

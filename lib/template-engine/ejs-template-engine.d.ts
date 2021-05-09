@@ -1,4 +1,4 @@
-import { TemplateEngine, TemplateEngineOptions } from '@/contracts';
+import { TemplateEngine, TemplateEngineOptions } from '../contracts';
 export declare class EjsTemplateEngine implements TemplateEngine {
     private readonly ejsRender;
     private readonly options;

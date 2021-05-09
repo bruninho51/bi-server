@@ -1,7 +1,7 @@
 /// <reference types="node" />
 import { Http2SecureServer, ServerHttp2Stream } from 'http2';
-import { ServerOptions, TemplateEngine } from '@/contracts';
-import { Route } from '@/server';
+import { ServerOptions, TemplateEngine } from '../contracts';
+import { Route } from '../server';
 export declare class Server {
     private readonly http2;
     private readonly routes;

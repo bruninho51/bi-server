@@ -1,4 +1,4 @@
-import { Errors } from '@/contracts/errors';
+import { Errors } from '../contracts/errors';
 
 export class UninitializedError implements Error {
     

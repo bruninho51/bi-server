@@ -1,7 +1,7 @@
 import { promisify } from 'util';
 import { renderFile } from 'ejs';
 import path from 'path';
-import { TemplateEngine, TemplateEngineOptions } from '@/contracts';
+import { TemplateEngine, TemplateEngineOptions } from '../contracts';
 
 export class EjsTemplateEngine implements TemplateEngine {
 
