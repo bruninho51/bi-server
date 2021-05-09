@@ -1,13 +1,13 @@
-import { Controller } from '@/contracts/controller'
-import { Errors } from '@/contracts/errors'
-import { HttpRequest } from '@/contracts/http-request'
-import { HttpResponse } from '@/contracts/http-response'
-import { Methods } from '@/contracts/methods'
-import { ServerError } from '@/contracts/server-error'
-import { ServerOptions } from '@/contracts/server-options'
-import { ServerPush } from '@/contracts/server-push'
-import { TemplateEngine } from '@/contracts/template-engine'
-import { TemplateEngineOptions } from '@/contracts/template-engine-options'
+import { Controller } from './controller'
+import { Errors } from './errors'
+import { HttpRequest } from './http-request'
+import { HttpResponse } from './http-response'
+import { Methods } from './methods'
+import { ServerError } from './server-error'
+import { ServerOptions } from './server-options'
+import { ServerPush } from './server-push'
+import { TemplateEngine } from './template-engine'
+import { TemplateEngineOptions } from './template-engine-options'
 
 export {
     Controller,

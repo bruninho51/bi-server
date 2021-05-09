@@ -1,3 +1,3 @@
-import { ScriptPusher } from '@/server-push/script-pusher';
-import { StylePusher } from '@/server-push/style-pusher';
+import { ScriptPusher } from './script-pusher';
+import { StylePusher } from './style-pusher';
 export { ScriptPusher, StylePusher };

@@ -1,7 +1,7 @@
-import { Route } from '@/server/route'
-import { Router } from '@/server/router'
-import { Server } from '@/server/server'
-import { BaseController } from '@/server/base-controller'
+import { Route } from './route'
+import { Router } from './router'
+import { Server } from './server'
+import { BaseController } from './base-controller'
 
 export {
     BaseController,

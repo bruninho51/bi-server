@@ -1,4 +1,4 @@
-import { EjsTemplateEngine } from '@/template-engine/ejs-template-engine'
+import { EjsTemplateEngine } from './ejs-template-engine'
 
 export {
     EjsTemplateEngine
