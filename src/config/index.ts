@@ -1,1 +1,6 @@
-export * from "./config"
+import { defaultServerOptions, makeServerOptions } from './config'
+
+export {
+    defaultServerOptions,
+    makeServerOptions
+}

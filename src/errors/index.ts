@@ -1,2 +1,7 @@
-export * from './not-found-error'
-export * from './uninitialized-error'
+import { NotFoundError } from './not-found-error'
+import { UninitializedError } from './uninitialized-error'
+
+export {
+    NotFoundError,
+    UninitializedError
+}
