@@ -3,7 +3,7 @@ import {
 	ServerPush,
 	TemplateEngine, 
 	ServerError 
-} from '@/contracts';
+} from '../contracts';
 
 export type ServerOptions = {
 	key: Buffer
