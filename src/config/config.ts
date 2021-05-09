@@ -8,8 +8,8 @@ import { ServerOptions } from '../contracts/server-options';
 import { EjsTemplateEngine } from '../template-engine';
 
 export const defaultServerOptions: ServerOptions  = {
-    key: fs.readFileSync(path.join(process.cwd(), 'ssl', 'privkey.pem')),
-	cert: fs.readFileSync(path.join(process.cwd(), 'ssl', 'cert.pem')),
+    key: path.join(process.cwd(), 'ssl', 'localhost-privkey.pem'),
+	cert: path.join(process.cwd(), 'ssl', 'localhost-cert.pem'),
 	genericServerError: new GenericServerError(),
 	notFoundServerError: new NotFoundServerError(),
 	templateEngine: new EjsTemplateEngine({

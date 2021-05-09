@@ -6,8 +6,8 @@ import {
 } from '../contracts';
 
 export type ServerOptions = {
-	key: Buffer
-	cert: Buffer,
+	key: string
+	cert: string,
 	genericServerError: ServerError,
 	notFoundServerError: ServerError,
 	templateEngine?: TemplateEngine;

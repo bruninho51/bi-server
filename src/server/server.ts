@@ -1,3 +1,4 @@
+import fs from 'fs'
 import url from 'url';
 import assert from 'assert';
 import http2, { 
@@ -28,7 +29,10 @@ export class Server {
 
 	constructor(options?: Partial<ServerOptions>) {
 		const opt = makeServerOptions(options)
-		this.http2 = http2.createSecureServer(options);
+		this.http2 = http2.createSecureServer({ 
+			key: fs.readFileSync(opt.key), 
+			cert: fs.readFileSync(opt.cert) 
+		});
 		this.routes = opt.router.getRoutes();
 		this.genericServerError = opt.genericServerError;
 		this.notFoundServerError = opt.notFoundServerError;
@@ -108,6 +112,7 @@ export class Server {
 			if (err instanceof NotFoundError) {
 				this.notFoundServerError.handle(stream, err);
 			} else {
+				console.log(err)
 				this.genericServerError.handle(stream, err);
 			}
 		}
