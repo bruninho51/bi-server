@@ -1,7 +1,5 @@
-import { Controller } from '../contracts/controller';
-import { Methods } from '../contracts/methods';
+import { Controller, Methods } from '../contracts';
 import { match } from 'path-to-regexp';
-
 export class Route {
 
 	private readonly _method: Methods;

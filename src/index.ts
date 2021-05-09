@@ -1,3 +1,5 @@
+import 'module-alias/register'
+
 export * from '@/config'
 export * from '@/contracts'
 export * from '@/errors'

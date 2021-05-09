@@ -1,4 +1,4 @@
-import {ServerPush} from '@/contracts/server-push';
+import {ServerPush} from '@/contracts';
 import { constants as http2Constants } from 'http2';
 
 const NGHTTP2_REFUSED_STREAM = http2Constants.NGHTTP2_REFUSED_STREAM;

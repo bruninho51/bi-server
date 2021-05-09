@@ -1,6 +1,5 @@
-import { Controller } from "../contracts/controller"
-import { Methods } from "../contracts/methods"
-import { Route } from "./route"
+import { Controller, Methods } from "@/contracts"
+import { Route } from "@/server/route"
 
 export class Router {
     private readonly routes: any[]

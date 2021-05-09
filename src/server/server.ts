@@ -1,15 +1,22 @@
-import http2, { Http2SecureServer, ServerHttp2Stream } from 'http2';
 import url from 'url';
 import assert from 'assert';
-import { HttpResponse } from '../contracts/http-response';
-import { Route } from './route';
-import { NotFoundError } from '../errors/not-found-error';
-import { ServerOptions } from '../contracts/server-options';
-import { ServerError } from '../contracts/server-error';
-import { TemplateEngine } from '../contracts/template-engine';
-import { BaseController } from './controllers/base-controller';
-import { ServerPush } from '../contracts/server-push';
-import { makeServerOptions } from '@/config/config'
+import http2, { 
+	Http2SecureServer, 
+	ServerHttp2Stream 
+} from 'http2';
+import { 
+	ServerOptions, 
+	ServerError,
+	TemplateEngine, 
+	ServerPush, 
+	HttpResponse 
+} from '@/contracts';
+import { 
+	Route, 
+	BaseController 
+} from '@/server';
+import { NotFoundError } from '@/errors';
+import { makeServerOptions } from '@/config'
 
 export class Server {
 	private readonly http2: Http2SecureServer;
