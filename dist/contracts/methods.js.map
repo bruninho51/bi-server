@@ -1,1 +1,1 @@
-{"version":3,"file":"methods.js","sourceRoot":"","sources":["../../src/contracts/methods.ts"],"names":[],"mappings":";;;AAAA,IAAY,OAIX;AAJD,WAAY,OAAO;IACf,sBAAW,CAAA;IACX,wBAAa,CAAA;IACb,sBAAW,CAAA;AACf,CAAC,EAJW,OAAO,GAAP,eAAO,KAAP,eAAO,QAIlB"}
+{"version":3,"file":"methods.js","sourceRoot":"src/","sources":["contracts/methods.ts"],"names":[],"mappings":";;;AAAA,IAAY,OAIX;AAJD,WAAY,OAAO;IACf,sBAAW,CAAA;IACX,wBAAa,CAAA;IACb,sBAAW,CAAA;AACf,CAAC,EAJW,OAAO,GAAP,eAAO,KAAP,eAAO,QAIlB"}

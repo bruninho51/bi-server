@@ -1,1 +1,1 @@
-{"version":3,"file":"server-push.js","sourceRoot":"","sources":["../../src/contracts/server-push.ts"],"names":[],"mappings":""}
+{"version":3,"file":"server-push.js","sourceRoot":"src/","sources":["contracts/server-push.ts"],"names":[],"mappings":""}

@@ -10,13 +10,16 @@
       "sourceMap": true,
       "outDir": "dist",
       "lib": ["es2015"],
-      "rootDirs": ["src", "tests"],
+      "sourceRoot": "src",
+      "rootDirs": ["src"],
       "baseUrl": "src",
       "paths": {
-        "@/tests/*": ["../tests/*"],
         "@/*": ["*"]
-      },
+      }
     },
-    
-  
+    "exclude": [
+      "dist",
+      "test",
+      "node_modules"
+    ]
   }

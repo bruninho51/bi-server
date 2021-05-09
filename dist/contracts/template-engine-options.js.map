@@ -1,1 +1,1 @@
-{"version":3,"file":"template-engine-options.js","sourceRoot":"","sources":["../../src/contracts/template-engine-options.ts"],"names":[],"mappings":""}
+{"version":3,"file":"template-engine-options.js","sourceRoot":"src/","sources":["contracts/template-engine-options.ts"],"names":[],"mappings":""}

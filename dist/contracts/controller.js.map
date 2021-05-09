@@ -1,1 +1,1 @@
-{"version":3,"file":"controller.js","sourceRoot":"","sources":["../../src/contracts/controller.ts"],"names":[],"mappings":""}
+{"version":3,"file":"controller.js","sourceRoot":"src/","sources":["contracts/controller.ts"],"names":[],"mappings":""}

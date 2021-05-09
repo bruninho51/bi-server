@@ -1,1 +1,1 @@
-{"version":3,"file":"http-response.js","sourceRoot":"","sources":["../../src/contracts/http-response.ts"],"names":[],"mappings":""}
+{"version":3,"file":"http-response.js","sourceRoot":"src/","sources":["contracts/http-response.ts"],"names":[],"mappings":""}

@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,iCAA8B;AAE9B,2CAAwB;AACxB,8CAA2B;AAC3B,2CAAwB;AACxB,2CAAwB;AACxB,uDAAoC;AACpC,gDAA6B;AAC7B,oDAAiC"}
+{"version":3,"file":"index.js","sourceRoot":"src/","sources":["index.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,iCAA8B;AAE9B,2CAAwB;AACxB,8CAA2B;AAC3B,2CAAwB;AACxB,2CAAwB;AACxB,uDAAoC;AACpC,gDAA6B;AAC7B,oDAAiC"}
